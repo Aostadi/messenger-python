@@ -3,7 +3,7 @@ import register
 import login
 
 date = datetime.datetime.now()
-print(f'\t\t\t{"*"*7}-- WELCOME TO MESSENGER --{"*"*7}')
+print(f'\t\t\t{"*"*8}-- WELCOME TO MESSENGER --{"*"*8}')
 hour = date.hour
 if 5 <= hour <= 12:
     print('good morning!')
